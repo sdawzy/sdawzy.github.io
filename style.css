@@ -1,19 +1,21 @@
 .language-selector {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+    position: absolute; /* Position the container relative to the page */
+    top: 10px;          /* Distance from the top */
+    right: 10px;        /* Distance from the right */
+    display: flex;      /* Arrange buttons in a row */
+    gap: 10px;          /* Add space between buttons */
 }
 
 .language-selector button {
-    background: #0078d4;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    margin: 0 5px;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 5px 10px;  /* Add padding for buttons */
+    background-color: #007BFF; /* Default button color */
+    color: white;       /* Button text color */
+    border: none;       /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;    /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth hover effect */
 }
 
 .language-selector button:hover {
-    background: #005bb5;
+    background-color: #0056b3; /* Darker color on hover */
 }
