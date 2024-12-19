@@ -50,7 +50,7 @@ const translations = {
         "project2-title": "活路 2",
         "project2-description": "這個活路也還將就，湊合看哈。",
         "contact-title": "聯繫我喲",
-        "contact-description": "有啥子事情，盡管通過郵件找我喲：<a href='mailto:your.email@example.com'>your.email@example.com</a>",
+        "contact-description": "有啥子事情，盡管通過郵件找我喲：<a href='mailto:yzha1030@uottawa.ca'>yzha1030@uottawa.ca</a>",
         "footer": "© 2024 Yue Zhang。拢共歸我所有，莫亂用哈！"
     }
 };

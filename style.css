@@ -1,21 +1,108 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Language Selector */
 .language-selector {
-    position: absolute; /* Position the container relative to the page */
-    top: 10px;          /* Distance from the top */
-    right: 10px;        /* Distance from the right */
-    display: flex;      /* Arrange buttons in a row */
-    gap: 10px;          /* Add space between buttons */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
 }
 
 .language-selector button {
-    padding: 5px 10px;  /* Add padding for buttons */
-    background-color: #007BFF; /* Default button color */
-    color: white;       /* Button text color */
-    border: none;       /* Remove borders */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer;    /* Pointer cursor on hover */
-    transition: background-color 0.3s; /* Smooth hover effect */
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .language-selector button:hover {
-    background-color: #0056b3; /* Darker color on hover */
+    background-color: #0056b3;
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile-links h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.profile-links p {
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.profile-link {
+    text-decoration: none;
+    color: #007BFF;
+    padding: 5px 10px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.profile-link:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Other Sections */
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
 }
