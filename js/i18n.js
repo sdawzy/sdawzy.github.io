@@ -1,6 +1,14 @@
 // Language content dictionary
 const translations = {
     en: {
+        "nav-home": "Home",
+        "nav-about": "About",
+        "nav-blog": "Blog",
+        "nav-contact": "Contact",
+        "blog-title": "Blog",
+        "blog1-title": "Blog Post 1",
+        "blog2-title": "Blog Post 2",
+        "blog3-title": "Blog Post 3",
         "page-title": "Yue's Secret Base",
         "about-link": "About",
         "projects-link": "Projects",
