@@ -3,7 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Yue's Secret Base</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about" data-key="about-link">About</a></li>
+                <li><a href="#projects" data-key="projects-link">Projects</a></li>
+                <li><a href="#contact" data-key="contact-link">Contact</a></li>
+            </ul>
+            <div class="language-selector">
+                <button id="lang-en">English</button>
+                <button id="lang-fr">Français</button>
+            </div>
+        </nav>
+        <div class="hero">
+            <h1 data-key="hero-title">Hi, I'm Yue.</h1>
+            <p data-key="hero-description">Welcome to my personal website! I'm a I'm a CS PhD candiate @ uOttawa who loves theories.</p>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2 data-key="about-title">About Me</h2>
+            <p data-key="about-description">
+                I'm passionate about creating solutions that make life easier. In my free time, I enjoy board games.
+            </p>
+        </section>
+        <section id="projects">
+            <h2 data-key="projects-title">Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <h3 data-key="project1-title">Project 1</h3>
+                    <p data-key="project1-description">A short description of this project.</p>
+                </div>
+                <div class="project">
+                    <h3 data-key="project2-title">Project 2</h3>
+                    <p data-key="project2-description">A short description of this project.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 data-key="contact-title">Contact</h2>
+            <p data-key="contact-description">
+                Feel free to reach out to me at <a href="mailto:yzha1030@uottawa.ca">yzha1030@uottawa.ca</a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p data-key="footer">© 2024 Yue Zhang. All rights reserved.</p>
+    </footer>
+    <script src="i18n.js"></script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yue's Secret Base</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,15 +76,15 @@
             </ul>
         </nav>
         <div class="hero">
-            <h1>Hi, I'm [Your Name]</h1>
-            <p>Welcome to my personal website! I'm a [Your Profession] who loves [Your Interests].</p>
+            <h1>Hi, I'm Yue.</h1>
+            <p>Welcome to my personal website! I'm a CS PhD candiate @ uOttawa.</p>
         </div>
     </header>
     <main>
         <section id="about">
             <h2>About Me</h2>
             <p>
-                I'm passionate about creating solutions that make life easier. In my free time, I enjoy [Your Hobbies].
+                I'm passionate about creating solutions that make life easier. In my free time, I enjoy board games.
             </p>
         </section>
         <section id="projects">
@@ -42,11 +102,11 @@
         </section>
         <section id="contact">
             <h2>Contact</h2>
-            <p>Feel free to reach out to me at <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>Feel free to reach out to me at <a href="mailto:yzha1030@uottawa.ca">yzha1030@uottawa.ca</a></p>
         </section>
     </main>
     <footer>
-        <p>© 2024 [Your Name]. All rights reserved.</p>
+        <p>© 2024 Yue Zhang. All rights reserved.</p>
     </footer>
 </body>
-</html>
+</html> -->
