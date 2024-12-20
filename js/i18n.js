@@ -14,7 +14,7 @@ const translations = {
         "projects-link": "Projects",
         "contact-link": "Contact",
         "hero-title": "Hi, I'm Yue.",
-        "hero-description": "Welcome to my personal website! I'm a I'm a CS PhD candiate @ uOttawa who loves theories.",
+        "hero-description": "Welcome to my personal website! I'm a CS PhD candidate @ uOttawa who loves theories.",
         "about-title": "About Me",
         "about-description": "I'm passionate about creating solutions that make life easier. In my free time, I enjoy board games, especially Go and Shogi.",
         "projects-title": "Projects",
@@ -63,60 +63,48 @@ const translations = {
     }
 };
 
-// Function to switch language
-function switchLanguage(lang) {
+// Load translations for the specified language
+function loadTranslations(language = "en") {
     document.querySelectorAll("[data-key]").forEach(el => {
         const key = el.getAttribute("data-key");
-        if (translations[lang][key] != undefined) {
-            el.innerHTML = translations[lang][key];
-        }
-    });
-}
-
-function loadTranslations(language = "en") {
-    const elements = document.querySelectorAll("[data-key]");
-    elements.forEach(el => {
-        const key = el.getAttribute("data-key");
         if (translations[language] && translations[language][key]) {
-            el.textContent = translations[language][key];
+            el.innerHTML = translations[language][key]; // Use innerHTML for dynamic content
         }
     });
 }
 
+// Initialize the page
 document.addEventListener("DOMContentLoaded", () => {
-    // Set up the header
+    // Load and inject header
     const headerPlaceholder = document.getElementById("header-placeholder");
     fetch("header.html")
-        .then((response) => response.text())
-        .then((data) => {
+        .then(response => response.text())
+        .then(data => {
             headerPlaceholder.innerHTML = data;
-            // Reinitialize language selector or other scripts if needed
-            loadTranslations();
+
+            // Reinitialize translations after loading the header
+            const defaultLanguage = localStorage.getItem("language") || "en";
+            loadTranslations(defaultLanguage);
+
+            // Set up language selector buttons in the header
+            document.getElementById("lang-en").addEventListener("click", () => {
+                setLanguage("en");
+            });
+            document.getElementById("lang-fr").addEventListener("click", () => {
+                setLanguage("fr");
+            });
+            document.getElementById("lang-sc").addEventListener("click", () => {
+                setLanguage("sc");
+            });
         });
-    
-        // Event listeners for language buttons
-    document.getElementById("lang-en").addEventListener("click", () => switchLanguage("en"));
-    document.getElementById("lang-fr").addEventListener("click", () => switchLanguage("fr"));
-    document.getElementById("lang-sc").addEventListener("click", () => switchLanguage("sc"));
-    
-    const languageSelector = document.querySelector(".language-selector");
-    const defaultLanguage = localStorage.getItem("language") || "en";
 
     // Load default language on page load
+    const defaultLanguage = localStorage.getItem("language") || "en";
     loadTranslations(defaultLanguage);
-
-    // Add event listeners to buttons
-    languageSelector.addEventListener("click", (event) => {
-        if (event.target.tagName === "BUTTON") {
-            const selectedLanguage = event.target.id.replace("lang-", "");
-            loadTranslations(selectedLanguage);
-
-            // Save selected language to local storage
-            localStorage.setItem("language", selectedLanguage);
-        }
-    });
 });
 
-// Set default language to English
-switchLanguage("en");
-
+// Set language and save preference
+function setLanguage(lang) {
+    loadTranslations(lang);
+    localStorage.setItem("language", lang);
+}
