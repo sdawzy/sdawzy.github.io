@@ -67,7 +67,7 @@ const translations = {
 function switchLanguage(lang) {
     document.querySelectorAll("[data-key]").forEach(el => {
         const key = el.getAttribute("data-key");
-        if (key != undefined) {
+        if (translations[lang][key] != undefined) {
             el.innerHTML = translations[lang][key];
         }
     });
@@ -80,3 +80,32 @@ document.getElementById("lang-sc").addEventListener("click", () => switchLanguag
 
 // Set default language to English
 switchLanguage("en");
+
+function loadTranslations(language = "en") {
+    const elements = document.querySelectorAll("[data-key]");
+    elements.forEach(el => {
+        const key = el.getAttribute("data-key");
+        if (translations[language] && translations[language][key]) {
+            el.textContent = translations[language][key];
+        }
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    const languageSelector = document.querySelector(".language-selector");
+    const defaultLanguage = localStorage.getItem("language") || "en";
+
+    // Load default language on page load
+    loadTranslations(defaultLanguage);
+
+    // Add event listeners to buttons
+    languageSelector.addEventListener("click", (event) => {
+        if (event.target.tagName === "BUTTON") {
+            const selectedLanguage = event.target.id.replace("lang-", "");
+            loadTranslations(selectedLanguage);
+
+            // Save selected language to local storage
+            localStorage.setItem("language", selectedLanguage);
+        }
+    });
+});
