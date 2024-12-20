@@ -93,7 +93,12 @@ document.addEventListener("DOMContentLoaded", () => {
             // Reinitialize language selector or other scripts if needed
             loadTranslations();
         });
-
+    
+        // Event listeners for language buttons
+    document.getElementById("lang-en").addEventListener("click", () => switchLanguage("en"));
+    document.getElementById("lang-fr").addEventListener("click", () => switchLanguage("fr"));
+    document.getElementById("lang-sc").addEventListener("click", () => switchLanguage("sc"));
+    
     const languageSelector = document.querySelector(".language-selector");
     const defaultLanguage = localStorage.getItem("language") || "en";
 
@@ -111,11 +116,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
-
-// Event listeners for language buttons
-document.getElementById("lang-en").addEventListener("click", () => switchLanguage("en"));
-document.getElementById("lang-fr").addEventListener("click", () => switchLanguage("fr"));
-document.getElementById("lang-sc").addEventListener("click", () => switchLanguage("sc"));
 
 // Set default language to English
 switchLanguage("en");
