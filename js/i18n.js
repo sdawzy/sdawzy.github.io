@@ -63,6 +63,14 @@ const translations = {
     }
 };
 
+// Get the base path dynamically
+function getBasePath() {
+    const scriptPath = document.currentScript.src;
+    const scriptDir = scriptPath.substring(0, scriptPath.lastIndexOf("/") + 1);
+    const isLocal = window.location.protocol === "file:";
+    return isLocal ? scriptDir : `${window.location.origin}/`;
+}
+
 // Load translations for the specified language
 function loadTranslations(language = "en") {
     document.querySelectorAll("[data-key]").forEach(el => {
@@ -75,9 +83,11 @@ function loadTranslations(language = "en") {
 
 // Initialize the page
 document.addEventListener("DOMContentLoaded", () => {
+    const basePath = getBasePath();
+
     // Load and inject header
     const headerPlaceholder = document.getElementById("header-placeholder");
-    fetch("header.html")
+    fetch(`${basePath}header.html`) // Use the calculated base path
         .then(response => response.text())
         .then(data => {
             headerPlaceholder.innerHTML = data;
