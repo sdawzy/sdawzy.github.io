@@ -78,9 +78,6 @@ document.getElementById("lang-en").addEventListener("click", () => switchLanguag
 document.getElementById("lang-fr").addEventListener("click", () => switchLanguage("fr"));
 document.getElementById("lang-sc").addEventListener("click", () => switchLanguage("sc"));
 
-// Set default language to English
-switchLanguage("en");
-
 function loadTranslations(language = "en") {
     const elements = document.querySelectorAll("[data-key]");
     elements.forEach(el => {
@@ -92,6 +89,16 @@ function loadTranslations(language = "en") {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+    // Set up the header
+    const headerPlaceholder = document.getElementById("header-placeholder");
+    fetch("header.html")
+        .then((response) => response.text())
+        .then((data) => {
+            headerPlaceholder.innerHTML = data;
+            // Reinitialize language selector or other scripts if needed
+            loadTranslations();
+        });
+
     const languageSelector = document.querySelector(".language-selector");
     const defaultLanguage = localStorage.getItem("language") || "en";
 
@@ -109,3 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+// Set default language to English
+switchLanguage("en");
+
