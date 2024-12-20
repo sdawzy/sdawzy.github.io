@@ -11,7 +11,7 @@ const translations = {
         "projects-link": "Projects",
         "contact-link": "Contact",
         "hero-title": "Hi, I'm Yue.",
-        "hero-description": "Welcome to my personal website! I'm a CS PhD candidate @ uOttawa who loves theories.",
+        "hero-description": "Welcome to my personal website! I'm a CS PhD candidate @uOttawa who loves theories of AI. My supervisors are Yongyi Mao and Tommaso Cesari.",
         "about-title": "About Me",
         "about-description": "I'm passionate about creating solutions that make life easier. In my free time, I enjoy board games, especially Go and Shogi.",
         "projects-title": "Projects",
