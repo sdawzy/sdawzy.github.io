@@ -156,3 +156,22 @@ ul li a {
 ul li a:hover {
     text-decoration: underline;
 }
+
+.social-links {
+    display: flex;
+    justify-content: center; /* Center the links horizontally */
+    gap: 20px; /* Add space between the links */
+    margin-top: 20px; /* Adjust spacing from other elements */
+}
+
+.social-links a {
+    text-decoration: none; /* Remove underline */
+    color: #0073b1; /* Example color */
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #005582; /* Change color on hover for LinkedIn */
+}
