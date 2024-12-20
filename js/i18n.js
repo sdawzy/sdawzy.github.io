@@ -73,11 +73,6 @@ function switchLanguage(lang) {
     });
 }
 
-// Event listeners for language buttons
-document.getElementById("lang-en").addEventListener("click", () => switchLanguage("en"));
-document.getElementById("lang-fr").addEventListener("click", () => switchLanguage("fr"));
-document.getElementById("lang-sc").addEventListener("click", () => switchLanguage("sc"));
-
 function loadTranslations(language = "en") {
     const elements = document.querySelectorAll("[data-key]");
     elements.forEach(el => {
@@ -116,6 +111,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+// Event listeners for language buttons
+document.getElementById("lang-en").addEventListener("click", () => switchLanguage("en"));
+document.getElementById("lang-fr").addEventListener("click", () => switchLanguage("fr"));
+document.getElementById("lang-sc").addEventListener("click", () => switchLanguage("sc"));
 
 // Set default language to English
 switchLanguage("en");
