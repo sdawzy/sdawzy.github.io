@@ -6,9 +6,6 @@ const translations = {
         "nav-blog": "Blog",
         "nav-contact": "Contact",
         "blog-title": "Blog",
-        "blog1-title": "Blog Post 1",
-        "blog2-title": "Blog Post 2",
-        "blog3-title": "Blog Post 3",
         "page-title": "Yue's Secret Base",
         "about-link": "About",
         "projects-link": "Projects",
@@ -27,6 +24,11 @@ const translations = {
         "footer": "© 2024 Yue Zhang. All rights reserved."
     },
     fr: {
+        "nav-home": "Accueil",
+        "nav-about": "À propos",
+        "nav-blog": "Blog",
+        "nav-contact": "Contact",
+        "blog-title": "Blog",        
         "page-title": "La base secrète de Yue",
         "about-link": "À propos",
         "projects-link": "Projets",
@@ -45,7 +47,13 @@ const translations = {
         "footer": "© 2024 Yue Zhang. Tous droits réservés."
     },
     sc: {
-        "about-link": "屋頭人",
+        "nav-home": "屋頭",
+        "nav-about": "關於我",
+        "nav-blog": "隨筆",
+        "nav-contact": "聯繫我喲",
+        "blog-title": "整過的活路",
+        "page-title": "越的秘密基地",
+        "about-link": "關於我",
         "projects-link": "整過的活路",
         "contact-link": "聯繫我喲",
         "hero-title": "你好唄，我是越。",
@@ -59,7 +67,7 @@ const translations = {
         "project2-description": "這個活路也還將就，湊合看哈。",
         "contact-title": "聯繫我喲",
         "contact-description": "有啥子事情，盡管通過郵件找我喲：<a href='mailto:yzha1030@uottawa.ca'>yzha1030@uottawa.ca</a>",
-        "footer": "© 2024 Yue Zhang。拢共歸我所有，莫亂用哈！"
+        "footer": "© 2024 Yue Zhang。攏共歸我所有，莫亂用哈！"
     }
 };
 
