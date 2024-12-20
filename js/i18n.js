@@ -67,7 +67,9 @@ const translations = {
 function switchLanguage(lang) {
     document.querySelectorAll("[data-key]").forEach(el => {
         const key = el.getAttribute("data-key");
-        el.innerHTML = translations[lang][key];
+        if (key != undefined) {
+            el.innerHTML = translations[lang][key];
+        }
     });
 }
 
