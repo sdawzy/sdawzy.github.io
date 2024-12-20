@@ -65,11 +65,12 @@ const translations = {
 
 // Get the base path dynamically
 function getBasePath() {
-    const scriptPath = document.currentScript.src;
-    const scriptDir = scriptPath.substring(0, scriptPath.lastIndexOf("/") + 1);
-    const isLocal = window.location.protocol === "file:";
-    return isLocal ? scriptDir : `${window.location.origin}/`;
+    const scripts = document.getElementsByTagName("script");
+    const currentScript = scripts[scripts.length - 1]; // Last script in the document
+    const scriptPath = currentScript.src || window.location.href;
+    return scriptPath.substring(0, scriptPath.lastIndexOf("/") + 1);
 }
+
 
 // Load translations for the specified language
 function loadTranslations(language = "en") {
