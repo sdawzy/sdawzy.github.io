@@ -68,7 +68,9 @@ function getBasePath() {
     const scripts = document.getElementsByTagName("script");
     const currentScript = scripts[scripts.length - 1]; // Last script in the document
     const scriptPath = currentScript.src || window.location.href;
-    return scriptPath.substring(0, scriptPath.lastIndexOf("/") + 1);
+    // Handle cases where the script is in the /js directory
+    const basePath = scriptPath.substring(0, scriptPath.lastIndexOf("/js/") + 1);
+    return basePath;
 }
 
 
