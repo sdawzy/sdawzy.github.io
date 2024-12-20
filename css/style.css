@@ -114,7 +114,7 @@ header {
     width: 100%;        /* Ensure the header spans the full width */
     z-index: 1000;      /* Ensures the header is above other content */
     background-color: #333; /* Optional: Background color for the header */
-    padding: 20px;      /* Optional: Adjust padding */
+    padding: 5px;      /* Optional: Adjust padding */
     color: white;       /* Optional: Text color */
 }
 
