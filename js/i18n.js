@@ -11,7 +11,9 @@ const translations = {
         "projects-link": "Projects",
         "contact-link": "Contact",
         "hero-title": "Hi, I'm Yue.",
-        "hero-description": "Welcome to my personal website! I'm a CS PhD candidate @uOttawa who loves theories of AI. My supervisors are Yongyi Mao and Tommaso Cesari.",
+        "hero-description": 
+        "<div>Welcome to my personal website! I'm a CS PhD candidate @uOttawa who loves theories of AI. My supervisors are Yongyi Mao and Tommaso Cesari.</div>\
+        <div>Recently I am working on </div>",
         "about-title": "About Me",
         "about-description": "I'm passionate about creating solutions that make life easier. In my free time, I enjoy board games, especially Go and Shogi.",
         "projects-title": "Projects",
@@ -20,7 +22,7 @@ const translations = {
         "project2-title": "Project 2",
         "project2-description": "A short description of this project.",
         "contact-title": "Contact",
-        "contact-description": "Feel free to reach out to me at <a href='mailto:yzha1030@uottawa.ca'>yzha1030@uottawa.ca</a>",
+        "contact-description": "Feel free to reach out to me at ",
         "footer": "© 2024 Yue Zhang. All rights reserved."
     },
     fr: {
@@ -43,7 +45,7 @@ const translations = {
         "project2-title": "Projet 2",
         "project2-description": "Une courte description de ce projet.",
         "contact-title": "Contact",
-        "contact-description": "N'hésitez pas à me contacter à <a href='mailto:yzha1030@uottawa.ca'>yzha1030@uottawa.ca</a>",
+        "contact-description": "N'hésitez pas à me contacter à ",
         "footer": "© 2024 Yue Zhang. Tous droits réservés."
     },
     sc: {
@@ -66,7 +68,7 @@ const translations = {
         "project2-title": "活路 2",
         "project2-description": "這個活路也還將就，湊合看哈。",
         "contact-title": "聯繫我喲",
-        "contact-description": "有啥子事情，盡管通過郵件找我喲：<a href='mailto:yzha1030@uottawa.ca'>yzha1030@uottawa.ca</a>",
+        "contact-description": "有啥子事情，盡管通過郵件找我喲： ",
         "footer": "© 2024 Yue Zhang。攏共歸我所有，莫亂用哈！"
     }
 };
