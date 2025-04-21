@@ -1,0 +1,21 @@
+---
+layout: archive
+title: "Selected Projects"
+permalink: /en/projects/
+author_profile: true
+redirect_from: 
+  - /portfolio/
+  - /projects/
+  - /en/portfolio/
+---
+
+{% include base_path %}
+
+{% assign sorted_portfolio = site.portfolio | sort: "importance" | reverse %}
+{% for post in sorted_portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
+<!-- {% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %} -->
+

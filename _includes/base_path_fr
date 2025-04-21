@@ -1,0 +1,5 @@
+{% if site.url %}
+  {% assign base_path_fr = site.url | append: site.baseurl-fr %}
+{% else %}
+  {% assign base_path_fr = site.github.url | append: site.baseurl-fr %}
+{% endif %}

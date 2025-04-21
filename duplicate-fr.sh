@@ -10,6 +10,9 @@ for filepath in "$SOURCE_DIR"/*; do
   name="${filename%.*}"
   
   cp "$filepath" "$SOURCE_DIR/${name}-fr.${extension}"
+  cp "$filepath" "$SOURCE_DIR/${name}-scm.${extension}"
+  cp "$filepath" "$SOURCE_DIR/${name}-nan.${extension}"
+  cp "$filepath" "$SOURCE_DIR/${name}-ja.${extension}"
 done
 
 echo "✅ Duplicated all files in '$SOURCE_DIR' with '-fr' suffix."
