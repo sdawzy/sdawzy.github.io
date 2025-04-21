@@ -7,9 +7,9 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-CA"
+locale                   : "en"
 site_theme               : "default"
-title                    : "Yue's Secret Base"
+title                    : "Yue's Place"
 title_separator          : "-"
 name                     : &name "Yue Zhang"
 description              : &description "personal description"
@@ -161,6 +161,8 @@ include:
   - .htaccess
   - _pages
   - files
+  - en/_pages
+  - fr/_pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -217,9 +219,6 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  # projects:
-  #   output: true
-  #   permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/

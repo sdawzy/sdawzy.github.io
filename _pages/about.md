@@ -1,10 +1,11 @@
 ---
-permalink: /
+permalink: /en
 title: "Welcome to Yue's Place!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+  - /
 ---
 
 I'm Yue Zhang [ye tsaŋ], a first year Ph.D. student of Computer Science at University of Ottawa. I am co-supervised by [Dr. Yongyi Mao](https://medium.com/@yongyimao) and [Dr. Tommaso Cesari](https://uniweb.uottawa.ca/view/profile/members/5604). I am exploring a broad range of topics in machine learning, with a particular focus on the **theoretical foundations of deep learning**.

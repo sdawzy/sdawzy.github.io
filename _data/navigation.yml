@@ -7,30 +7,45 @@
 # NOTE that only one of the CV options should be selected, the first is for the
 #      Markdown formatted page while the second is generated using JSON.
 
+# main is for english pages
 main:
+  - title: "Blog Posts"
+    url: /en/blog/
+    
+  - title: "CV"
+    url: /en/cv/
+
+  - title: "Projects"
+    url: /en/projects/
+
+  - title: "Teaching"
+    url: /en/teaching/    
+    
   # - title: "Publications"
   #   url: /publications/
 
   # - title: "Talks"
   #   url: /talks/    
 
-  - title: "Projects"
-    url: /projects/
-
-  - title: "Teaching"
-    url: /teaching/    
-    
   # - title: "Portfolio"
   #   url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /blog/
-    
-  - title: "CV"
-    url: /cv/
     
   # - title: "CV"
   #   url: /cv-json/
     
   # - title: "Guide"
   #   url: /markdown/
+
+# For French pages
+main-fr:
+  - title: "Projets"
+    url: /fr/projets/
+
+  - title: "CV"
+    url: /fr/cv/
+
+  - title: "Articles de Blog"
+    url: /fr/blog/
+
+  - title: "Expérience d’Enseignement"
+    url: /fr/enseignement/
