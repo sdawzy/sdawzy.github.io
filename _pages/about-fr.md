@@ -27,6 +27,6 @@ Vous aimez les jeux de société ? Moi, je les aime beaucoup, surtout le jeu de 
 
 Je suis toujours partant pour une partie réfléchie de <a href="https://online-go.com/user/view/1538041" target="_blank" rel="noopener noreferrer">Go</a>, <a href="https://lishogi.org/@/sdawzy" target="_blank" rel="noopener noreferrer">Shogi</a> ou <a href="https://lichess.org/@/sdawzy" target="_blank" rel="noopener noreferrer">Échecs</a>. N’hésitez pas à me lancer un défi — ce serait un plaisir d’échanger autour d’un jeu.
 
-Je suis aussi passionné·e par **l’apprentissage des langues et la linguistique** — j’adore découvrir comment chaque langue façonne notre manière de penser. Si vous m’écrivez un jour, n'hésitez pas à me saluer dans votre langue maternelle ! Ce serait super — c’est une belle façon de créer du lien.
+Je suis aussi passionné par **l’apprentissage des langues et la linguistique** — j’adore découvrir comment chaque langue façonne notre manière de penser. Si vous m’écrivez un jour, n'hésitez pas à me saluer dans votre langue maternelle ! Ce serait super — c’est une belle façon de créer du lien.
 
-##### J’apprends le français en ce moment — alors si vous repérez quelque chose d’inhabituel ou d’étrange sur cette page, n’hésitez surtout pas à me le signaler.
+##### J’apprends le français maintenant — alors si vous repérez quelque chose d’inhabituel ou d’étrange sur cette page, n’hésitez surtout pas à me le signaler.
