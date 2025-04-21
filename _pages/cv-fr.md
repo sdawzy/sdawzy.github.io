@@ -1,12 +1,10 @@
 ---
-layout: archive
+layout: archive-fr
 title: "CV"
-permalink: /en/cv/
+permalink: /fr/cv/
 author_profile: true
 redirect_from:
-  - /resume
-  - /cv
-  - /en/resume
+  - /fr/resume
 ---
 
 {% include base_path %}

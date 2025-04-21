@@ -9,17 +9,19 @@
 
 # main is for english pages
 main:
+  - title: "Projects"
+    url: /en/projects/
+
+  - title: "Teaching"
+    url: /en/teaching/   
+
   - title: "Blog Posts"
     url: /en/blog/
     
   - title: "CV"
     url: /en/cv/
 
-  - title: "Projects"
-    url: /en/projects/
-
-  - title: "Teaching"
-    url: /en/teaching/    
+ 
     
   # - title: "Publications"
   #   url: /publications/
@@ -40,12 +42,12 @@ main:
 main-fr:
   - title: "Projets"
     url: /fr/projets/
-
-  - title: "CV"
-    url: /fr/cv/
+  
+  - title: "Expériences d’Enseignement"
+    url: /fr/enseignement/
 
   - title: "Articles de Blog"
     url: /fr/blog/
 
-  - title: "Expérience d’Enseignement"
-    url: /fr/enseignement/
+  - title: "CV"
+    url: /fr/cv/
