@@ -14,7 +14,7 @@ I'm Yue Zhang [ye tsaŋ], a first year Ph.D. student of Computer Science at Univ
 
 Education
 ======
-- **Ph.D. in Computer Science**  
+- **Ph.D. Student in Computer Science**  
   *University of Ottawa*, 2024 – Present
 
 - **B.A. in Mathematics** (with minors in Computer Science and Asian Studies)  
