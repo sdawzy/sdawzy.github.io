@@ -23,7 +23,7 @@ Formation
 
 ♠︎ Quelque Chose d'Intéressant ♛
 ======
-Vous aimez les jeux de société ? Moi, j les aime beaucoup, surtout le jeu de cartes **Gongzhu**. Voici mon <a href="https://sdawzy.github.io/gongzhu/" target="_blank">IA Gongzhu</a>. Voyons si vous pouvez battre mon IA !
+Vous aimez les jeux de société ? Moi, je les aime beaucoup, surtout le jeu de cartes **Gongzhu**. Voici mon <a href="https://sdawzy.github.io/gongzhu/" target="_blank">IA Gongzhu</a>. Voyons si vous pouvez battre mon IA !
 
 Je suis toujours partant pour une partie réfléchie de <a href="https://online-go.com/user/view/1538041" target="_blank" rel="noopener noreferrer">Go</a>, <a href="https://lishogi.org/@/sdawzy" target="_blank" rel="noopener noreferrer">Shogi</a> ou <a href="https://lichess.org/@/sdawzy" target="_blank" rel="noopener noreferrer">Échecs</a>. N’hésitez pas à me lancer un défi — ce serait un plaisir d’échanger autour d’un jeu.
 
