@@ -10,7 +10,10 @@
 locale                   : "en"
 site_theme               : "default"
 title                    : "Yue's Place"
+title-en                 : "Yue's Place"
 title-fr                 : "Chez Yue"
+title-cnm                : "越的空間"
+title-ja                 : "越のホーム"
 title_separator          : "-"
 name                     : &name "Yue Zhang"
 description              : &description "personal description"
@@ -19,6 +22,12 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 # baseurl-fr               : "/fr"
 repository               : "sdawzy/academicpages.github.io"
 
+# Site languages
+languages:
+  - en
+  - fr
+  - cnm
+  - ja
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -134,6 +143,117 @@ author-fr:
   youtube          : # Username
   zhihu            : # Username
 
+# Personal information in Mandarin
+author-cmn:
+  # Biographic information
+  avatar           : "profile.png"
+  name             : "張 越"
+  # pronouns         : "N'importe quel Pronom"  
+  # bio              : "Short biography for the left-hand sidebar"
+  location         : "加拿大，渥太華"
+  employer         : "渥太華大學"
+  uri              : "https://sdawzy.github.io/"
+  email            : "yuezhang1437@gmail.com" 
+
+  # Academic websites
+  arxiv            : # URL - Update with the correct link to your profile
+  # googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  impactstory      : # URL
+  # orcid            : "http://orcid.org/yourorcidurl"
+  semantic         : # URL
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : # URL
+  scopus           : # URL
+
+  # Repositories and software development
+  bitbucket        : # Username - Update with your username on the site
+  codepen          : # Username
+  dribbble         : # Username
+  github           : "sdawzy"
+  kaggle           : # Username  
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+
+  # Social media
+  bluesky          : "yuezhang.bsky.social" # Replace this with you Bluesky username
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : # Username
+  mastodon         : # URL
+  medium           : # URL
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : # Username
+  telegram         : # URL
+  tumblr           : # Username
+  twitter          : # Username for X / Twitter
+  vine             : # Username
+  weibo            : # Username
+  wikipedia        : # Username
+  xing             : # Username
+  youtube          : # Username
+  zhihu            : # Username
+
+# Personal information in Japanese
+author-ja:
+  # Biographic information
+  avatar           : "profile.png"
+  name             : "張 越（チョウ　コシ）"
+  # pronouns         : "N'importe quel Pronom"  
+  # bio              : "Short biography for the left-hand sidebar"
+  location         : "カナダ，オタワ"
+  employer         : "オタワ大学"
+  uri              : "https://sdawzy.github.io/"
+  email            : "yuezhang1437@gmail.com" 
+
+  # Academic websites
+  arxiv            : # URL - Update with the correct link to your profile
+  # googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  impactstory      : # URL
+  # orcid            : "http://orcid.org/yourorcidurl"
+  semantic         : # URL
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : # URL
+  scopus           : # URL
+
+  # Repositories and software development
+  bitbucket        : # Username - Update with your username on the site
+  codepen          : # Username
+  dribbble         : # Username
+  github           : "sdawzy"
+  kaggle           : # Username  
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+
+  # Social media
+  bluesky          : "yuezhang.bsky.social" # Replace this with you Bluesky username
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : # Username
+  mastodon         : # URL
+  medium           : # URL
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : # Username
+  telegram         : # URL
+  tumblr           : # Username
+  twitter          : # Username for X / Twitter
+  vine             : # Username
+  weibo            : # Username
+  wikipedia        : # Username
+  xing             : # Username
+  youtube          : # Username
+  zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
