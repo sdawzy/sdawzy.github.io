@@ -1,6 +1,6 @@
 ---
 title: 'Study notes--Information Theory'
-date: 2025-04-22
+date: 2099-09-09
 permalink: /posts/2025/04/information-theory/en
 tags:
   - notes

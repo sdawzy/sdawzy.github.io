@@ -16,20 +16,28 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          <li id="theme-toggle" class="masthead__menu-item persist tail">
+          <!-- <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
-          </li>
+          </li> -->
           <!-- <li class="masthead__menu-item" style="margin-left: auto"> -->
           
-          <li id="lang-en" class="masthead__menu-item" style="margin-left: auto">
+          <!-- <li id="lang-en" class="masthead__menu-item" style="margin-left: auto">
             <a href="{{ base_path }}/en">English</a>
           </li>  
           <li id="lang-fr" class="masthead__menu-item" style="margin-left: auto">
             <a href="{{ base_path }}/fr">Français</a>
-          </li>  
-          
-          <!-- </li> -->
+          </li>   -->
         </ul>
+        <li id="lang-toggle" class="masthead__menu-item persist tail" style="margin-left: auto;">
+          <a>
+            <i id="lang-icon" title="Choose language" class="fa-solid fa-language" aria-hidden="true"></i>
+            Langue du Site
+          </a>
+          <ul id="lang-menu" style="display: none; position: absolute; top: 100%; left: auto; right: 0; background: white; list-style: none; padding: 0.5em; margin: 0; border: 1px solid #ccc; max-height: 150px; overflow-y: auto; z-index: 999;">
+            <li><a href="{{ base_path }}/en">English</a></li>
+            <li><a href="{{ base_path }}/fr">Français</a></li>
+          </ul>
+        </li>
         <!-- Insert language selections -->
         <!-- Language Switcher (Aligned Right) -->
         <ul class="hidden-links hidden"></ul>
