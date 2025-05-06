@@ -24,9 +24,12 @@
               <i id="lang-icon" title="Choose language" class="fa-solid fa-language" aria-hidden="true"></i>
               Site Language
             </a>
-            <ul id="lang-menu" style="display: none; position: absolute; top: 100%; left: auto; right: 0; background: white; list-style: none; padding: 0.5em; margin: 0; border: 1px solid #ccc; max-height: 150px; overflow-y: auto; z-index: 999;">
-              <li><a href="{{ base_path }}/en">English</a></li>
-              <li><a href="{{ base_path }}/fr">Français</a></li>
+            <ul id="lang-menu" style="display: none; position: absolute; top: 100%; left: auto; right: 0; background: white; list-style: none; padding: 0.5em; margin: 0; border: 1px solid #ccc; max-height: 300px; overflow-y: auto; z-index: 999;">
+              <!-- <li><a href="{{ base_path }}/en">English</a></li> -->
+              <!-- <li><a href="{{ base_path }}/fr">Français</a></li> -->
+              {% for lang in site.languages %}
+                <li class="masthead__menu-item"><a href="{{ base_path }}/{{ lang.abbr }}">{{ lang.name }}</a></li>
+              {% endfor %}
             </ul>
         </li>
         <ul class="hidden-links hidden"></ul>

@@ -202,6 +202,10 @@
     cursor: pointer;
     z-index: 100;
   }
+  .li {
+    margin-left: auto; /* <-- Magic! pushes this item to the right */
+    margin-right: 0; /* no extra space after it */
+  }
 
   .visible-links {
     display: table;

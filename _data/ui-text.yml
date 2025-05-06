@@ -349,6 +349,7 @@ zh-HK: &DEFAULT_ZH_HK
   loading_label              : "加載中..."
 zh-TW:
   <<: *DEFAULT_ZH_HK
-
+cmn: 
+  <<: *DEFAULT_ZH_HK
 # Another locale
 # --------------

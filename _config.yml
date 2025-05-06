@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Yue's Place"
 title-en                 : "Yue's Place"
 title-fr                 : "Chez Yue"
-title-cnm                : "越的空間"
+title-cmn                : "越的空間"
 title-ja                 : "越のホーム"
 title_separator          : "-"
 name                     : &name "Yue Zhang"
@@ -24,10 +24,23 @@ repository               : "sdawzy/academicpages.github.io"
 
 # Site languages
 languages:
-  - en
-  - fr
-  - cnm
-  - ja
+
+  - name: "English"
+    abbr: en
+
+  - name: "Français"
+    abbr: fr
+  
+  # - name: "官話"
+  #   abbr: cmn
+  
+  # - name: "日本語"
+  #   abbr: ja
+
+  # - en
+  # - fr
+  # - cmn
+  # - ja
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.

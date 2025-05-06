@@ -1,8 +1,8 @@
 ---
-layout: archive
+layout: archive-fr
 title: 'Study notes--Information Theory'
 date: 2099-09-09
-permalink: /posts/2025/04/information-theory/en
+permalink: /posts/2025/04/information-theory/fr
 tags:
   - notes
   - information theory
