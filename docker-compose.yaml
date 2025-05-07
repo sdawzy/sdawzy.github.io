@@ -1,5 +1,6 @@
 services:
   jekyll-site:
+    platform: linux/amd64  # or arm64 if you're using arm-compatible base image
     image: jekyll-site
     build: .
     volumes: [.:/usr/src/app]
