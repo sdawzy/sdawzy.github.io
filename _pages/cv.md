@@ -11,7 +11,7 @@ redirect_from:
 
 {% include base_path %}
 
-<iframe src="/files/Yue-Zhang-Resume-20250419.pdf" width="110%" height="600px"></iframe>
+<iframe src="/files/CV.pdf" width="110%" height="600px"></iframe>
 
 <!-- <embed src="files/Yue_Zhang_Resume_20250419.pdf" type="application/pdf" width="100%" height="600px" /> -->
 
