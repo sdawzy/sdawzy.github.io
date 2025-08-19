@@ -8,14 +8,14 @@ redirect_from:
   - /
 ---
 
-I'm Yue Zhang [ye tsaŋ], a first year Ph.D. student of Computer Science at University of Ottawa. I am co-supervised by [Dr. Yongyi Mao](https://medium.com/@yongyimao) and [Dr. Tommaso Cesari](https://uniweb.uottawa.ca/view/profile/members/5604). I am exploring a broad range of topics in machine learning, with a particular focus on the **theoretical foundations of deep learning**.
+I'm Yue Zhang [ye tsaŋ], a first year Ph.D. candidate of Computer Science at University of Ottawa. I am co-supervised by [Dr. Yongyi Mao](https://medium.com/@yongyimao) and [Dr. Tommaso Cesari](https://uniweb.uottawa.ca/view/profile/members/5604). I am exploring a broad range of topics in machine learning, with a particular focus on the **theoretical foundations of deep learning**.
 
 - Email: yuezhang1437 [at] gmail.com (for general purpose)
 - Email: yzha1030 [at] uottawa.ca (for uOttawa related work)
 
 Education
 ======
-- **Ph.D. Student in Computer Science**  
+- **Ph.D. Candidate in Computer Science**  
   *University of Ottawa*, 2024 – Present
 
 - **B.A. in Mathematics** (with minors in Computer Science and Asian Studies)  
