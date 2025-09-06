@@ -8,7 +8,7 @@ redirect_from:
   - /fr/about.html
 ---
 
-Je m'appelle Yue Zhang [ye tsaŋ], doctorant en première année en informatique à l’Université d’Ottawa. Je suis co-encadré par [Dr. Yongyi Mao](https://medium.com/@yongyimao) et [Dr. Tommaso Cesari](https://uniweb.uottawa.ca/view/profile/members/5604). J’explore divers sujets en apprentissage automatique, en me concentrant particulièrement sur les **fondements théoriques de l’apprentissage profond (Deep Learning)**.
+Je m'appelle Yue Zhang [ye tsaŋ], doctorant en deuxième année en informatique à l’Université d’Ottawa. Je suis co-encadré par [Dr. Yongyi Mao](https://medium.com/@yongyimao) et [Dr. Tommaso Cesari](https://uniweb.uottawa.ca/view/profile/members/5604). J’explore divers sujets en apprentissage automatique, en me concentrant particulièrement sur les **fondements théoriques de l’apprentissage profond (Deep Learning)**.
 
 - Email : yuezhang1437 [at] gmail.com (usage général)  
 - Email : yzha1030 [at] uottawa.ca (travail lié à l’Université d’Ottawa)
