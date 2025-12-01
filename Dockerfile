@@ -13,6 +13,8 @@ WORKDIR /usr/src/app
 # Copy Gemfile into the container (necessary for `bundle install`)
 COPY Gemfile ./
 
+RUN rm -f Gemfile.lock
+
 # Install bundler and dependencies
 RUN gem install bundler:2.3.26 && bundle install
 
